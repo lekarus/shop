@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.appbar{
+    height: 88px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.appbar, .left-appbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: #0C2146;
+    margin-right: 16px;
+}
+
+.text-appbar{
+    margin: 6px 16px;
+    color: #5A5B6A;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 158%;
+}
+
+.search-panel{
+    width: 668px;
+    background: #EDEDF0;
+    border-radius: 99px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0075em;
+    color: #19191D;
+}
