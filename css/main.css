@@ -143,3 +143,33 @@ a {
     height: 40px;
     border-radius: 50%;
 }
+
+.Topnav{
+    left: 0px;
+}
+.Tabs{
+    margin-left: 214px;
+    margin-right: 214px;
+    display: flex;
+    justify-content: space-between;
+}
+.Tab{
+    border-radius: 10px;
+    padding: 10px 4px 4px 4px;
+}
+.Tab p{
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #9696A0;
+    margin: 0px 4px;
+}
+.svg{
+    margin-right: auto;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+}
