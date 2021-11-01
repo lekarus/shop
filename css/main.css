@@ -1,7 +1,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    background: #fff;
 }
 
 a {
@@ -49,4 +48,37 @@ a {
     align-items: center;
     letter-spacing: 0.0075em;
     color: #19191D;
+}
+
+.Topnav{
+    position: absolute;
+    left: 0px;
+}
+.Tabs{
+    margin-left: 214px;
+    margin-right: 214px;
+    display: flex;
+}
+.Tab{
+    border-radius: 10px;
+    padding: 10px 4px 4px 4px;
+}
+.Tab svg{;
+    fill:  black;
+}
+.Tab p{
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #9696A0;
+    margin: 0px 4px;
+}
+.svg{
+    margin-right: auto;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
 }
