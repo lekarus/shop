@@ -49,14 +49,8 @@ a {
     letter-spacing: 0.0075em;
     color: #19191D;
 }
-
-.Topnav{
-    position: absolute;
-    left: 0px;
-}
 .Tabs{
-    margin-left: 214px;
-    margin-right: 214px;
+    margin: 0px 214px;
     display: flex;
 }
 .Tab{
@@ -81,4 +75,174 @@ a {
     margin-left: auto;
     width: 20px;
     height: 20px;
+}
+.footer{
+    height: 292px;
+    width: 100%;
+    background: #F7F7FA;
+}
+.Topsection{
+    padding: 30px 0;
+    background: #F7F7FA;
+    padding-left: 592px;
+    width: 100%-592px;
+    display: flex;
+}
+.customer{
+    width: 700px;
+}
+.name{
+    margin-bottom: 30px;
+    color: #B1B1C3;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.0275em;
+    text-transform: uppercase;
+    display: flex;
+}
+.refs{
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.refs a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color:  #1F1F1F;
+    margin-right: 40px;
+}
+.contacts{
+    width: 100%-40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.number{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    white-space: nowrap;
+}
+.desc{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #5A5B6A;
+    display: flex;
+}
+.track{
+    border-radius: 6px;
+    padding: 6px 12px;
+    background: #EBF2FF;
+    color: #2264D1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.social{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.facebook{
+    position: absolute;
+    top: 16px;
+    left: 18px;
+}
+.circle{
+    margin: 9px;
+    position: absolute;
+}
+.social{
+    border: 1px solid #B4B4BB;
+    border-radius: 14px;
+    position: relative;
+    width: 42px;
+    height: 42px;
+}
+.twitter{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+.Business{
+    width: 100%-700px;
+    margin-right: 214px;
+}
+.Midsection{
+    background:  #E6E6EA;
+    padding-left: 592px;
+    color: #5A5B6A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.midmail{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 143%;
+    margin-right:  40px;
+}
+.midsub{
+    width: 120px;
+    height: 40px;
+    margin: 5px 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    border: 1px solid #9DC2FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #2264D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midtext{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px 120px;
+}
+.bottomsection{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 214px;
+    margin-left: 592px;
+    margin-bottom: 10px;
+    marin-top: 10px;
+}
+.copyright{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #B1B1C3;
+}
+.privacy{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #5A5B6A;
+    display: flex;
 }
